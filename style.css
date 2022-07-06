@@ -80,6 +80,7 @@ body{
     justify-content: center;
 }
 .amount-btn{
+    border: 2.5px solid #f1f1f1;
     display: flex;
     background-color: #f1f1f1;
     margin: 5px 10px;
@@ -93,7 +94,7 @@ body{
    
 }
 .amount-btn p{
-   
+    
     color: rgb(118, 118, 118);
     font-size: 30px;
 }
