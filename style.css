@@ -135,7 +135,7 @@ body{
 .part-div{
     background-color: #fff3f3;
     margin: auto 10px;
-    height: 400px;
+    height: 450px;
     width: 32%;
     border-radius: 5px;
     padding: 50px;
@@ -162,12 +162,15 @@ body{
     padding: 30px;
     width: 50%;
     text-align: left;
+    
    
     
 }
 .half-width img{
     width: 100%;
     border-radius: 5px;
+    justify-content: center;
+    align-items: center;
 }
 .half-width  h2{
     font-size: 35px;
