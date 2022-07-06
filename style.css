@@ -148,9 +148,77 @@ body{
     background-color: rgba(79, 157, 166, 0.1);
 }
 #part2{
-    background-color: gba(255, 89, 89, 0.1);;
+    background-color: gba(255, 89, 89, 0.1);
 }
 #part3{
     background-color: #FFF4D6;
-    ;
+
 }
+.details{
+    width: 70%;
+    margin: auto;
+}
+.half-width{
+    padding: 30px;
+    width: 50%;
+    text-align: left;
+   
+    
+}
+.half-width img{
+    width: 100%;
+    border-radius: 5px;
+}
+.half-width  h2{
+    font-size: 35px;
+}
+.half-width p{
+    font-size: 20px;
+    font-weight: 100;
+}
+.btn-second{
+    margin: auto 0;
+}
+.email-input{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    height: 200px;
+    width: 80%;
+    background-color: #FFF4D6;
+}
+.email-input input{
+    width: 40%;
+    height: 25%;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+}
+.email-input a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF5959;
+    width: 15%;
+    height: 25%;
+    color: white;
+    text-decoration: none;
+    border-radius: 0 5px 5px 0;
+}
+footer{
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    background-color: #121212;
+    color: white;
+}
+footer p{
+    font-size: 15px;
+    font-weight: 70;
+}
+footer h2{
+    font-family: 'Kalam', cursive;
+    font-size: 28px;
+    color: #FF5959;
+}
+
