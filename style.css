@@ -193,6 +193,23 @@ body{
 .btn-second{
     margin: auto 0;
 }
+#counter{
+    border: 1px solid #c1b8ff;
+    border-radius: 5px;
+    width: 70%;
+    margin: 10px auto;
+}
+#counter .half-width{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px;
+   
+    color: rgb(0, 0, 0);
+    
+}
 .email-input{
     justify-content: center;
     align-items: center;
@@ -245,4 +262,24 @@ footer h2{
     text-align: center;
    
 }
+#counter-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#counter-section h2{
+    font-size: 40px;
+}
+#counter h3{
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 5px;
 
+}
+#counter p{
+    margin-top: 0;
+    background-image: linear-gradient(120deg,rgba(255, 77, 0, 0.306) 5%,rgba(85, 160, 246, 0.332) 100% );
+    border-radius: 10px;
+    font-size: 50px;
+    padding: 50px;
+}
